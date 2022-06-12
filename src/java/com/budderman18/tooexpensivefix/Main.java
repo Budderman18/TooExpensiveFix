@@ -36,7 +36,7 @@ public class Main extends JavaPlugin implements Listener {
         final String unsecureServerCMessage = ChatColor.translateAlternateColorCodes('&', "&cTo protect your safety and this plugin''s saftey, this plugin will now be disabled"); 
         final String pluginEnabledMessage = ChatColor.translateAlternateColorCodes('&', "&eTooExpensiveFix by Budderman18 has been enabled!"); 
         //check for correct version
-        if (!(Bukkit.getVersion().contains("1.18.2"))) {
+        if (!(Bukkit.getVersion().contains("1.19"))) {
             sender.sendMessage(prefixMessage + unsupportedVersionAMessage);
             sender.sendMessage(prefixMessage + unsupportedVersionBMessage);
             sender.sendMessage(prefixMessage + unsupportedVersionCMessage);  
